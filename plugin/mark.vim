@@ -174,12 +174,13 @@ endif
 "- default highlightings ------------------------------------------------------
 function! s:DefaultHighlightings()
 	" You may define your own colors in your vimrc file, in the form as below:
-	highlight def MarkWord1  ctermbg=Cyan     ctermfg=Black  guibg=#8CCBEA    guifg=Black
-	highlight def MarkWord2  ctermbg=Green    ctermfg=Black  guibg=#A4E57E    guifg=Black
-	highlight def MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#FFDB72    guifg=Black
-	highlight def MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#FF7272    guifg=Black
-	highlight def MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#FFB3FF    guifg=Black
-	highlight def MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#9999FF    guifg=Black
+  highlight def MarkWord1  ctermbg=Cyan     ctermfg=Black  guibg=#8CCBEA    guifg=Black
+  highlight def MarkWord2  ctermbg=Green    ctermfg=Black  guibg=#A4E57E    guifg=Black
+  highlight def MarkWord3  ctermbg=Yellow   ctermfg=Black  guibg=#D2691E    guifg=Black
+  highlight def MarkWord4  ctermbg=Red      ctermfg=Black  guibg=#FF7272    guifg=Black
+  highlight def MarkWord5  ctermbg=Magenta  ctermfg=Black  guibg=#FFB3FF    guifg=Black
+  highlight def MarkWord6  ctermbg=Blue     ctermfg=Black  guibg=#9999FF    guifg=Black
+  highlight def MarkWord7  ctermbg=Red      ctermfg=Black  guibg=#BA55D3    guifg=Black
 endfunction
 call s:DefaultHighlightings()
 autocmd ColorScheme * call <SID>DefaultHighlightings()
